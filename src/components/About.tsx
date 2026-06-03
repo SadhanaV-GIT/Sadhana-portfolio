@@ -34,9 +34,6 @@ const About: React.FC = () => {
               <p className="text-gray-500 dark:text-gray-400 mb-4 leading-relaxed text-sm">
                I'm a passionate Computer and Communication Engineering student with a strong drive to become a Full-Stack Developer. I completed a MERN Stack Internship at Rampex Company,and MODERN FULLSTACK Internship at Digri Company, gaining hands-on experience building real-world web applications.
               </p>
-              <p className="text-gray-500 dark:text-gray-400 mb-6 leading-relaxed text-sm">
-                Currently pursuing my B.E in Computer and Communication Engineering, I've worked on diverse projects ranging from AI-based systems to full-stack applications.
-              </p>
 
               <div className="bg-white dark:bg-gray-800 border border-indigo-100 dark:border-indigo-900 rounded-xl p-5 mb-4 shadow-sm">
                 <h4 className="font-semibold text-indigo-600 dark:text-indigo-400 mb-2 flex items-center gap-2 text-sm">
