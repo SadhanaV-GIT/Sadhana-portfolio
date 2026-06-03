@@ -10,7 +10,7 @@ const socials = [
   { icon: <SiHackerrank size={17} />, href: 'https://www.hackerrank.com/profile/sadhana_v2024cce', label: 'HackerRank' },
 ];
 
-const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Contact'];
+const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Coding', 'Contact'];
 
 const Footer: React.FC = () => {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
