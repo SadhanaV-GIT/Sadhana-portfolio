@@ -83,10 +83,10 @@ const Contact: React.FC = () => {
               </div>
               <div className="flex gap-3">
                 {[
-                  { icon: <FiLinkedin size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-                  { icon: <FiGithub size={18} />, href: 'https://github.com', label: 'GitHub' },
-                  { icon: <SiLeetcode size={18} />, href: 'https://leetcode.com', label: 'LeetCode' },
-                  { icon: <SiHackerrank size={18} />, href: 'https://hackerrank.com/your-username', label: 'HackerRank' },
+                  { icon: <FiLinkedin size={18} />, href: 'https://www.linkedin.com/in/sadhana-v-6aa790333', label: 'LinkedIn' },
+                  { icon: <FiGithub size={18} />, href: 'https://github.com/SadhanaV-GIT', label: 'GitHub' },
+                  { icon: <SiLeetcode size={18} />, href: 'https://leetcode.com/u/Sadhana2312/', label: 'LeetCode' },
+                  { icon: <SiHackerrank size={18} />, href: 'https://www.hackerrank.com/profile/sadhana_v2024cce', label: 'HackerRank' },
                 ].map((s) => (
                   <motion.a key={s.label} href={s.href} target="_blank" rel="noreferrer"
                     whileHover={{ scale: 1.1, y: -2 }}

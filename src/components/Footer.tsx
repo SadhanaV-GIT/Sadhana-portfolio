@@ -4,10 +4,10 @@ import { FiGithub, FiLinkedin, FiArrowUp } from 'react-icons/fi';
 import { SiLeetcode, SiHackerrank } from 'react-icons/si';
 
 const socials = [
-  { icon: <FiLinkedin size={17} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: <FiGithub size={17} />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <SiLeetcode size={17} />, href: 'https://leetcode.com', label: 'LeetCode' },
-  { icon: <SiHackerrank size={17} />, href: 'https://hackerrank.com/your-username', label: 'HackerRank' },
+  { icon: <FiLinkedin size={17} />, href: 'https://www.linkedin.com/in/sadhana-v-6aa790333', label: 'LinkedIn' },
+  { icon: <FiGithub size={17} />, href: 'https://github.com/SadhanaV-GIT', label: 'GitHub' },
+  { icon: <SiLeetcode size={17} />, href: 'https://leetcode.com/u/Sadhana2312/', label: 'LeetCode' },
+  { icon: <SiHackerrank size={17} />, href: 'https://www.hackerrank.com/profile/sadhana_v2024cce', label: 'HackerRank' },
 ];
 
 const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Experience', 'Certifications', 'Contact'];

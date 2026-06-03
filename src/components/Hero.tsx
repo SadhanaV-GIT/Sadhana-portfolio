@@ -5,10 +5,10 @@ import { SiLeetcode, SiHackerrank } from 'react-icons/si';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 
 const socials = [
-  { icon: <FiLinkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: <FiGithub size={20} />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <SiLeetcode size={20} />, href: 'https://leetcode.com', label: 'LeetCode' },
-  { icon: <SiHackerrank size={20} />, href: 'https://hackerrank.com/your-username', label: 'HackerRank' },
+  { icon: <FiLinkedin size={20} />, href: 'https://www.linkedin.com/in/sadhana-v-6aa790333', label: 'LinkedIn' },
+  { icon: <FiGithub size={20} />, href: 'https://github.com/SadhanaV-GIT', label: 'GitHub' },
+  { icon: <SiLeetcode size={20} />, href: 'https://leetcode.com/u/Sadhana2312/', label: 'LeetCode' },
+  { icon: <SiHackerrank size={20} />, href: 'https://www.hackerrank.com/profile/sadhana_v2024cce', label: 'HackerRank' },
 ];
 
 const Hero: React.FC = () => {
