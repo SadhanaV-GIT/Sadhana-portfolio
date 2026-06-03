@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-indigo-100 to-violet-100 dark:from-indigo-900/30 dark:to-violet-900/30" />
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full border-4 border-white dark:border-gray-800 shadow-2xl shadow-indigo-100 dark:shadow-indigo-900/20 overflow-hidden">
               <img
-                src="/profile.jpeg"
+                src={`${process.env.PUBLIC_URL}/profile.jpeg`}
                 alt="Sadhana V"
                 className="w-full h-full object-cover object-top"
                 loading="lazy"
