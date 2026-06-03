@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
 import { useTypingEffect } from '../hooks/useTypingEffect';
@@ -14,7 +13,6 @@ const socials = [
 
 const Hero: React.FC = () => {
   const typed = useTypingEffect(['Frontend Developer', 'React Developer', 'TypeScript Developer', 'UI/UX Enthusiast']);
-  const navigate = useNavigate();
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white dark:bg-gray-900">
@@ -54,7 +52,7 @@ const Hero: React.FC = () => {
             </motion.a>
             <motion.button
               whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
-              onClick={() => navigate('/contact')}
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="flex items-center gap-2 px-7 py-3 border border-indigo-200 dark:border-indigo-700 text-indigo-600 dark:text-indigo-400 rounded-lg font-semibold hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-all text-sm"
             >
               Contact Me
@@ -73,6 +71,8 @@ const Hero: React.FC = () => {
               </motion.a>
             ))}
           </div>
+
+
         </motion.div>
 
         <motion.div initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.7 }} className="order-1 lg:order-2 flex justify-center">
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-indigo-100 to-violet-100 dark:from-indigo-900/30 dark:to-violet-900/30" />
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full border-4 border-white dark:border-gray-800 shadow-2xl shadow-indigo-100 dark:shadow-indigo-900/20 overflow-hidden">
               <img
-                src="https://img.sanishtech.com/u/153482e525d1e134f55c5664fb169880.jpeg"
+                src="profile.jpg"
                 alt="Sadhana V"
                 className="w-full h-full object-cover object-top"
                 loading="lazy"
