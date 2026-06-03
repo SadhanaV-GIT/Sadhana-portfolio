@@ -85,7 +85,6 @@ const Contact: React.FC = () => {
                 {[
                   { icon: <FiLinkedin size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
                   { icon: <FiGithub size={18} />, href: 'https://github.com', label: 'GitHub' },
-                  { icon: <FiMail size={18} />, href: 'mailto:sadhanav.1206@gmail.com', label: 'Email' },
                   { icon: <SiLeetcode size={18} />, href: 'https://leetcode.com', label: 'LeetCode' },
                 ].map((s) => (
                   <motion.a key={s.label} href={s.href} target="_blank" rel="noreferrer"

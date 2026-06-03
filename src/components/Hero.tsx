@@ -1,13 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiDownload } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 
 const socials = [
   { icon: <FiLinkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
   { icon: <FiGithub size={20} />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <FiMail size={20} />, href: 'mailto:sadhanav.1206@gmail.com', label: 'Email' },
   { icon: <SiLeetcode size={20} />, href: 'https://leetcode.com', label: 'LeetCode' },
 ];
 
