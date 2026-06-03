@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
 
           <p className="text-gray-500 dark:text-gray-400 max-w-2xl mx-auto text-sm leading-relaxed">
             A diverse set of technologies and tools that I use to build modern web applications,
-            solve programming challenges, and develop AI-powered solutions.
+            solve programming challenges, and develop AI-powered solutions.{' '}
           </p>
         </motion.div>
 
