@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
 import emailjs from '@emailjs/browser';
 import { FiMail, FiMapPin, FiSend, FiGithub, FiLinkedin } from 'react-icons/fi';
-import { SiLeetcode } from 'react-icons/si';
+import { SiLeetcode, SiHackerrank } from 'react-icons/si';
 
 const SERVICE_ID = 'service_bcbm62c';
 const TEMPLATE_ID = 'template_pzx49wu';
@@ -86,6 +86,7 @@ const Contact: React.FC = () => {
                   { icon: <FiLinkedin size={18} />, href: 'https://linkedin.com', label: 'LinkedIn' },
                   { icon: <FiGithub size={18} />, href: 'https://github.com', label: 'GitHub' },
                   { icon: <SiLeetcode size={18} />, href: 'https://leetcode.com', label: 'LeetCode' },
+                  { icon: <SiHackerrank size={18} />, href: 'https://hackerrank.com/your-username', label: 'HackerRank' },
                 ].map((s) => (
                   <motion.a key={s.label} href={s.href} target="_blank" rel="noreferrer"
                     whileHover={{ scale: 1.1, y: -2 }}

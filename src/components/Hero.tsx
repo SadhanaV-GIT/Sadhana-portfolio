@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiDownload } from 'react-icons/fi';
-import { SiLeetcode } from 'react-icons/si';
+import { SiLeetcode, SiHackerrank } from 'react-icons/si';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 
 const socials = [
   { icon: <FiLinkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
   { icon: <FiGithub size={20} />, href: 'https://github.com', label: 'GitHub' },
   { icon: <SiLeetcode size={20} />, href: 'https://leetcode.com', label: 'LeetCode' },
+  { icon: <SiHackerrank size={20} />, href: 'https://hackerrank.com/your-username', label: 'HackerRank' },
 ];
 
 const Hero: React.FC = () => {

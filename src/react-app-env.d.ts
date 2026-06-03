@@ -37,4 +37,5 @@ declare module 'react-icons/si' {
   }
   type Icon = FC<IconProps>;
   export const SiLeetcode: Icon;
+  export const SiHackerrank: Icon;
 }
