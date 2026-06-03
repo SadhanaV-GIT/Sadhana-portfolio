@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-wrap gap-4 mb-10">
             <motion.a
               whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
-              href="https://drive.google.com/file/d/1hd3gaBaR9oGF9L9VDUNnWqiQAJFCzpFa/view?usp=sharing" target="_blank" rel="noreferrer"
+              href="/resume.pdf" download
               className="flex items-center gap-2 px-7 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold shadow-md shadow-indigo-200 dark:shadow-indigo-900/30 transition-all text-sm"
             >
               <FiDownload /> Download Resume
