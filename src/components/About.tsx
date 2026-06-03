@@ -40,7 +40,7 @@ const About: React.FC = () => {
                   <FiTarget size={15} /> Career Objective
                 </h4>
                 <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                  To secure a challenging position in a reputable organization where I can utilize my technical skills and contribute to innovative projects while continuously growing as a developer.
+                  Passionate Software Developer with experience in full-stack web development, AI-based applications, and problem-solving. Proficient in React, TypeScript, Java, Spring Boot, and modern web technologies, seeking opportunities to create impactful software solutions and grow in a collaborative environment.
                 </p>
               </div>
 
